@@ -203,7 +203,7 @@ Class Properties {
 
 	public static function generateUID($app = 'contacts') {
 		$uuid = new UUID();
-		return $uuid->get() . '@' . \OCP\Util::getServerHostName();
+		return $uuid->get();
 	}
 
 	/**
